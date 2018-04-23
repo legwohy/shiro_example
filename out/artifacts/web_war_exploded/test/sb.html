@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /* CSS 旋转*/
+        　　　　.div1 {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            border: 1px solid;
+            margin: 100px auto;
+            -moz-transform: rotate(45deg);/* Firefox 旋转属性，参数表示角度(deg表示角度)，负数逆时针，正数顺时针 */
+            -webkit-transform: rotate(45deg);/* Safari和Chrome */
+            -ms-transform: rotate(45deg);/* IE 9 */
+            -o-transform: rotate(45deg);/* Opera */
+        }
+
+        /* CSS 缩放 */
+        　　　　.div2 {
+            width: 612px;
+            height: 408px;
+            font-size: 20px;
+            margin: 100px auto;
+            background: url(imgs/img1.jpg);
+            -moz-transform: scale(0.5);/* 缩放属性 ,参数表示缩放倍数，0-1之间 */
+            -webkit-transform: scale(0.5);
+            -ms-transform: scale(0.5);
+            -o-transform: scale(0.5);
+        }
+
+        /* CSS 倾斜*/
+        　　　　.div3 {
+            width: 412px;
+            height: 208px;
+            font-size: 20px;
+            margin: 100px auto;
+            background: url(imgs/img1.jpg);
+            -moz-transform: skew(30deg, 30deg);/* 倾斜属性，参数分别表示x,y方的倾斜角度，负数逆时针，正数顺时针 */
+            -webkit-transform: skew(30deg, 30deg);
+            -ms-transform: skew(30deg, 30deg);
+            -o-transform: skew(30deg, 30deg);
+        }
+        /* CSS 移动*/
+        　　　　　.div4 {
+            width: 612px;
+            height: 408px;
+            font-size: 20px;
+            margin: 100px auto;
+            background: url(imgs/img1.jpg);
+            -moz-transform: translate(100px);/* 移动属性 ，移动方向是在div这个平面方向上，*/
+            -webkit-transform: translate(100px);
+            -ms-transform: translate(100px);
+            -o-transform: translate(100px);
+        }
+    </style>
+</head>
+<body>
+<div class="div1">我只是一个旋转示例</div>
+<div class="div2">我只是一个缩放示例</div>
+<div class="div3">我只是一个倾斜示例</div>
+<div class="div4">我只是一个移动示例</div>
+</body>
+</html>

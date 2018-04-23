@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>续期天数脚本</title>
+    <form>
+        <h1>脚本</h1>
+        <select id="renewalDay" name="renewalDay" style="width: 100px;">
+            <option value="1">1</option>
+        </select><br/>
+        <h2>实诚</h2>
+        <select  style="width: 100px;">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+
+        </select><br/>
+    </form>
+</head>
+<body>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#renewalDay").click(function () {
+            $("#renewalDay").empty();
+            for (var i = 2;i<15;i++){
+                var $option = $("<option value='"+i+"'>"+i+"</option>");
+                $("#renewalDay").append($option);
+            }
+
+        });
+    })
+</script>
+
+
+</body>
+</html>

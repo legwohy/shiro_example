@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A simple jQuery image viewing plugin.">
+        <meta name="keywords" content="HTML, CSS, JS, JavaScript, jQuery plugin, image viewing, front-end, frontend, web development">
+        <meta name="author" content="Fengyuan Chen">-->
+    <title>Viewer</title>
+    <link rel="stylesheet" href="css/viewer.min.css">
+</head>
+<body>
+
+<table>
+    <tr class="docs-galley">
+        <td class="docs-pictures clearfix">
+            <img src="images/img1.jpg" width="270px;" height="360px;" alt="Cuo Na Lake">
+        </td>
+        <td class="docs-pictures clearfix">
+            <img  src="images/photoTool.gif" width="270px;" height="360px;" alt="Tibetan Plateau">
+        </td>
+        <td class="docs-pictures clearfix">
+            <img  src="images/lily.jpg" width="270px;" height="360px;" alt="Jokhang Temple">
+        </td>
+        <td class="docs-pictures clearfix">
+            <img  src="images/panda.jpg" width="270px;" height="360px;" alt="Potala Palace 1">
+        </td>
+    </tr>
+</table>
+
+<!-- Content -->
+<!--<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-md-6">
+            <h3 class="page-header">Dem o</h3>
+            <div class="docs-galley">
+                <ul class="docs-pictures clearfix">
+                    <li><img data-original="images/tibet-1.jpg" src="images/img1.jpg" alt="Cuo Na Lake"></li>
+                    <li><img data-original="images/tibet-2.jpg" src="images/photoTool.gif" alt="Tibetan Plateau"></li>
+                    <li><img data-original="images/tibet-3.jpg" src="images/lily.jpg" alt="Jokhang Temple"></li>
+                    <li><img data-original="images/tibet-4.jpg" src="images/panda.jpg" alt="Potala Palace 1"></li>
+                    <li><img data-original="images/tibet-5.jpg" src="images/thumbnails/tibet-5.jpg" alt="Potala Palace 2"></li>
+                    <li><img data-original="images/tibet-6.jpg" src="images/thumbnails/tibet-6.jpg" alt="Potala Palace 3"></li>
+                    <li><img data-original="images/tibet-7.jpg" src="images/thumbnails/tibet-7.jpg" alt="Lhasa River"></li>
+                    <li><img data-original="images/tibet-8.jpg" src="images/thumbnails/tibet-8.jpg" alt="Namtso 1"></li>
+                    <li><img data-original="images/tibet-9.jpg" src="images/thumbnails/tibet-9.jpg" alt="Namtso 2"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>-->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/viewer.min.js"></script>
+<script>
+    /*
+     var url,
+     options = {
+     inline: true,
+     url: 'data-original',
+     build: function (e) {
+     console.log(e.type);
+     },
+     built: function (e) {
+     console.log(e.type);
+     },
+     show: function (e) {
+     console.log(e.type);
+     },
+     shown: function (e) {
+     console.log(e.type);
+     },
+     hide: function (e) {
+     console.log(e.type);
+     },
+     hidden: function (e) {
+     console.log(e.type);
+     },
+     view: function (e) {
+     console.log(e.type);
+     },
+     viewed: function (e) {
+     console.log(e.type);
+     }
+     };
+     $('.docs-pictures').viewer(url);*/
+    $('.docs-pictures').viewer("data-original");
+
+</script>
+</body>
+</html>
+
+html

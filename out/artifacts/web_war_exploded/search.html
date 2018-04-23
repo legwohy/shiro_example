@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .divFont{
+            width: 100px;
+            display: inline-block;
+        }
+        .divInput{
+            width: 200px;
+            display: inline-block;
+        }
+        .timeInput{
+            width: 70px;
+        }
+    </style>
+</head>
+<body>
+
+<form  method="post">
+    <div >
+        <!-- 查询表单-->
+        <div >
+            <table >
+                <tr>
+                    <td>
+                        <div class="divFont">
+                            借款人:
+                        </div>
+                        <div class="divInput">
+
+                            <input type="text" name="userName"
+                                   value="${params.userName }"/>
+                        </div>
+                    </td>
+
+
+                    <td>
+
+                        <div class="divFont">
+                            借款人手机号:
+                        </div>
+                        <div class="divInput">
+                            <input type="text" name="userPhone"
+                                   value="${params.userPhone }"/>
+
+                        </div>
+
+                    </td>
+
+
+
+
+                </tr>
+                <tr>
+                    <td>
+
+                        <div class="divFont">
+                            审核员:
+                        </div>
+                        <div class="divInput">
+                            <select name="assessorWorkInfoId" style="width: 150px;">
+                                <option value="0">0</option>
+
+                            </select>
+
+                        </div>
+
+
+                    </td>
+
+                                       <td>
+
+                        <div class="divFont">
+                            借款日期:
+                        </div>
+                        <div class="divInput">
+                            <input type="text" name="beginTime" id="beginTime" class="timeInput"
+                                   value="${params.beginTime}" readonly="readonly" /><span style="margin-left: 10px;margin-right: 10px;">-</span>
+                            <input type="text" name="endTime" id="endTime"
+                                   class="timeInput"
+                                   value="${params.endTime}" readonly="readonly" />
+
+                        </div>
+
+
+                    </td>
+
+                    <td>
+                        <div class="divFont">
+                            还款日期:
+                        </div>
+                        <div class="divInput">
+                            <input type="text" name="beginTime" class="timeInput"
+                                   value="${params.beginTime}" readonly="readonly" /><span style="margin-left: 10px;margin-right: 10px;">-</span>
+                            <input type="text" name="endTime" class="timeInput"
+
+                                   readonly="readonly" />
+                        </div>
+
+
+                    </td>
+
+
+                    <td >
+                        <div >
+                            <div >
+                                <button type="submit" style="width: 80px">
+                                    查询
+                                </button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+</form>
+<table>
+    <tr>
+        <td>
+
+        </td>
+    </tr>
+</table>
+</body>
+</html>

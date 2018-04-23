@@ -1,0 +1,120 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web" />
+          <element id="library" level="project" name="lib" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="web" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jdom.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/asm-4.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jsf-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jsp-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-3.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/xom-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jsf-impl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/cglib-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/core_3.2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.5.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mail-1.4.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jedis-2.9.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jsoup-1.8.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/junit-1.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/okio-1.13.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jcaptcha-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.16.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/okhttp-3.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/quartz-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fuiou-encrypt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-3.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.2.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/httpcore-4.3.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/httpmime-4.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jcommon-1.0.16.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/stax-api-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/xmlbeans-2.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aspectjrt-1.8.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-net-3.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json_simple-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/httpclient-4.3.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail-1.5.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/bcprov-jdk15-1.45.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool2-2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/hamcrest-core-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jfreechart-1.0.13.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/quartz-jobs-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-jexl-2.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.3-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/activeio-core-3.1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/activemq-all-5.13.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aspectjweaver-1.8.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang3-3.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool2-2.4.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/activemq-pool-5.13.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/happy-dns-java-0.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-1.2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/qiniu-java-sdk-7.2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jcl-over-slf4j-1.7.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/oss_op-0.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-schemas-3.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-httpclient-3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/httpclient-cache-4.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-paginator-1.2.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.0.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-configuration-1.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/parser-grid-V1.0.02R160217.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/parser-grid-V1.1.00R170110.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.35.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/zmxy-sdk-java-20161230154404.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-data-jpa-1.8.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-data-redis-1.4.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-data-commons-1.10.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/com/webclient/webclient_lib/httpcore-4.3.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/com/webclient/webclient_lib/httpmime-4.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/com/webclient/webclient_lib/commons-codec-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/com/webclient/webclient_lib/commons-logging-1.1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/com/webclient/webclient_lib/commons-httpclient-3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/com/webclient/webclient_lib/httpclient-cache-4.1.2.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web/web/Web" />
+    </root>
+  </artifact>
+</component>
