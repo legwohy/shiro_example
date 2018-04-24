@@ -31,7 +31,7 @@ public class SessionListener implements HttpSessionListener{
 
     /**
      * 销毁会话(会话到期或者会话销毁时触发操作)
-     * 销毁会话 清空数据
+     * 销毁会话 会话管理提出会话，用户状态改为下线
      */
     @Override
     public void sessionDestroyed(HttpSessionEvent event) {

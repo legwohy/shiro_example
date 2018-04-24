@@ -1,0 +1,8 @@
+CREATE TABLE `member_session` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `user_id` int(11) DEFAULT NULL COMMENT '用户主键 id',
+  `session_id` varchar(255) DEFAULT NULL COMMENT '用户登陆session id',
+  `off_line_msg` varchar(255) DEFAULT NULL COMMENT '下线消息',
+  `status` int(2) DEFAULT '1' COMMENT '状态:1 上线、2下线',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=utf8 COMMENT='用户会话表';
