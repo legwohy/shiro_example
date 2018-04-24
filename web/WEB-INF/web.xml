@@ -42,7 +42,7 @@
 
     <!-- 监听器-->
     <listener>
-        <listener-class>com.singlePoint.listener.SessionListener</listener-class>
+        <listener-class>com.singlePoint.servlet.SessionListener</listener-class>
     </listener>
 
 </web-app>

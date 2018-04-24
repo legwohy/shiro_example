@@ -28,16 +28,26 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!-- 拦截器
+    1、过滤器基于 filter 接口中的doFilter回调函数，拦截器interceptor则基于Java本身的反射机制
+    2、filter 依赖servlet，对所有的请求起作用
+    -->
+    <!-- 排除拦截静态资源(dispatcherServlet 拦截所有使得静态资源也被拦截) spring 3.0后支持 必须开启注解方可使用-->
+    <mvc:annotation-driven/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+    <mvc:resources location="/favicono.ico" mapping="/favicono.ico"/>
     <mvc:interceptors>
         <mvc:interceptor>
-            <!-- 拦截所有-->
+            <!-- 拦截所有的url
+                /**的意思是所有文件夹及里面的子文件夹
+                /*是所有文件夹，不含子文件夹
+                /是web项目的根目录
+            -->
             <mvc:mapping path="/**"/>
-
-            <!-- 登陆不拦截-->
-            <mvc:exclude-mapping path="/login**"/>
-
-            <!-- 拦截的类-->
-            <bean class="com.singlePoint.interceptor.LoginInterceptor"/>
+            <!-- 不拦截 /user/login.do -->
+            <mvc:exclude-mapping path="/user/login.do"/>
+            <!-- 拦截到url后交给类处理-->
+            <bean class="com.singlePoint.servlet.LoginInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
 

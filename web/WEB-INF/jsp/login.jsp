@@ -4,7 +4,7 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="<%=request.getContextPath()%>/login.do" method="post">
+    <form action="<%=request.getContextPath()%>/user/login.do" method="post">
         <input type="text" name="username" placeholder="请输入登录名"><br/>
         <button type="submit">登陆</button>
     </form>
